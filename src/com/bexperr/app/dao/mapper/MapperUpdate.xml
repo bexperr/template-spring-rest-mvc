@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.bexperr.app.dao.MapperUpdate">
+
+<!-- 
+
+	<update id="updateCalifiacion">
+		UPDATE SDO_RESULT_DELIVERABLES
+		SET SCS_ID = #{calific}
+		WHERE SRD_ID = #{modulo}
+	</update>
+
+ -->
+</mapper>

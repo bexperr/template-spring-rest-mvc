@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.bexperr.app.dao.MapperStoreProcedure">
+
+<!-- 
+
+	<resultMap id="getEvaluaciones"
+		type="com.totalplay.home.vo.CatalogosVO"></resultMap>
+
+	<select id="getEvaluaciones" statementType="CALLABLE"
+		parameterType="java.util.Map">
+		CALL RH_SYSTEM_DO.deliverables_program
+		(
+		#{programa},
+		#{CURSOR, jdbcType=CURSOR, mode=OUT, resultMap=getEvaluaciones,
+		javaType=java.sql.ResultSet}
+		)
+
+	</select>
+
+	<select id="getProgramModul" statementType="CALLABLE"
+		parameterType="java.util.Map">
+		CALL RH_SYSTEM_DO.data_program
+		(
+		#{CURSOR,
+		jdbcType=CURSOR,mode=OUT, resultMap=getProgramModule,
+		javaType=java.sql.ResultSet}
+		)
+	</select>
+	
+		<insert id="addProgramaAll" statementType="CALLABLE"
+		parameterType="ProgramaAllVO">
+		{
+		CALL RH_SYSTEM_DO.insert_program
+		( #{programa},
+		#{coach},
+		#{grupo},
+		#{descripcion},
+		#{desde },
+		#{hasta},
+		#{frecuencia},
+		#{session},
+		#{administracion},
+		#{edificio} ,
+		#{piso},
+		#{otraOcacion},
+		#{result, jdbcType=VARCHAR ,mode=OUT}
+		)
+		}
+	</insert>
+ -->
+
+</mapper>
